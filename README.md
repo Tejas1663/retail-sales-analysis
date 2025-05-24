@@ -27,10 +27,13 @@ retail-sales-project/
    ```bash
    pig retail_pig_backup.pig
 2. ** Hive SQL**
+    ```bash
    hive -f scripts/hive_retail.sql
    hive -f scripts/hive_queries.sql
-3. **Visualization**
+4. **Visualization**
+    ```bash
    cd notebooks
    jupyter notebook
-4. **Install dependencies**
+6. **Install dependencies**
+    ```bash
    pip install -r requirements.txt
