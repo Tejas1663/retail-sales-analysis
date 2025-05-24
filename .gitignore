@@ -1,0 +1,9 @@
+# Hadoop / Pig / Hive logs
+*.log
+derby.log
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
